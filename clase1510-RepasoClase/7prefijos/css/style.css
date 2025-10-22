@@ -1,0 +1,12 @@
+/*PREFIJOS -Prefijos DE LOS NAVEGADORES EN CSS*/
+
+
+
+div{
+    transform: rotate(25deg);
+
+    -webkit-transform: rotate(25deg);  /*Prefijo webkit -> Chrome safari versiones antiguas android*/
+    -moz-transform: rotate(25deg);/*Prefijo gecko -> Firefox antiguo*/
+    -ms-transform: rotate(25deg);/*Prefijo trident -> Internet Explorer*/
+    -o-transform: rotate(25deg); /*Prefijo Preston Opera antguo*/
+}

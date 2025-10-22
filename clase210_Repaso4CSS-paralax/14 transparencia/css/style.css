@@ -1,0 +1,13 @@
+div{
+    width: 500px;
+    height: 500px;
+
+    /*Transaparencia*/
+    background-color: transparent;
+    background-color: #00000073; /*Semitransparencia*/
+    background-color: rgba(0, 0, 0, 0.555);
+    background-color: hsla(125, 80%, 50%, 40%);
+    background-color: red;
+    opacity: 0.2;
+
+}
