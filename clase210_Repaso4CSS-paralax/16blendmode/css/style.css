@@ -7,5 +7,24 @@ div{
     width: 100vw;
     height: 100vh;
 
-    background: url("../..img/background1.jpg"), url(../..img/background2,jpg) yellow;
-}
+    background: url("../../img/background1.jpg"), url(../../img/background2.jpg) yellow;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /*Sin mezcla*/
+    background-blend-mode: multiply; /*Oscurece*/
+    background-blend-mode: screen;
+    background-blend-mode: overlay;
+    background-blend-mode: darken;
+    background-blend-mode: lighten;
+    background-blend-mode: color-dodges;
+    background-blend-mode: color-burn;
+    background-blend-mode: hard-light;
+    background-blend-mode: soft-light;
+    background-blend-mode: difference;
+    background-blend-mode: exclusion;
+    background-blend-mode: hue;
+    background-blend-mode: saturation;
+    background-blend-mode: color;
+    background-blend-mode: luminosity
+} 
+
