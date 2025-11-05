@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background:url(../../img/background5.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(15px); /*modifica el fondo a traves del elemento*/
+    backdrop-filter: brightness(20%);
+    backdrop-filter: contrast(40%);
+    backdrop-filter: graysacle(50%);
+    backdrop-filter: hue-rotate(120deg);
+    backdrop-filter: invert(70%);
+    backdrop-filter: opacity(20%);
+    backdrop-filter: sepia(90%);
+    backdrop-filter: saturate(80%);
+    backdrop-filter: contrast(40%);
+}

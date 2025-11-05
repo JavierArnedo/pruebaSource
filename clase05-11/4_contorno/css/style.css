@@ -1,0 +1,15 @@
+.box{
+   text-align: center;
+   margin: 200px auto;
+
+}
+
+input, a, button {
+    outline-color: blue;
+    outline-width: 2px;
+    outline-style: solid;
+
+    outline: 1px solid red;
+    outline: none;
+
+}

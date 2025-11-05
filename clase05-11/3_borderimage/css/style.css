@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    height: 200px;
+
+    border: 42px solid black;
+
+    border-image-width: 1;
+    border-image-source: url("../../img/background1.jpg");
+    border-image-slice: 25%;
+    border-image-repeat: repeat;
+}
